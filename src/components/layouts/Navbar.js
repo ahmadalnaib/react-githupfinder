@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 
-export class Navbar extends Component {
+ class Navbar extends Component {
 
   static defaultProps={
     title:'Githup',
@@ -15,7 +15,7 @@ export class Navbar extends Component {
     icon:PropTypes.string.isRequired
   }
 
-  
+
   render() {
     return (
       <nav className="navbar bg-primary">

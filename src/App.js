@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/layouts/Navbar';
+import UserItem from './components/users/UserItem';
 import './App.css';
 
  class App extends React.Component {
@@ -9,7 +10,7 @@ import './App.css';
        <div className="App">
          {/* add props */}
          <Navbar title="Githup" icon="fab fa-github"/>
-         
+          <UserItem/>
        </div>
      );
    }
