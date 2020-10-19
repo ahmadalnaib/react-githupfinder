@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
     return (
       <div className="card text-center">
-      <img src={avatar_url} className="round-img" style={{width:'60px'}} alt="photo"/>
+      <img src={avatar_url} className="round-img" style={{width:'60px'}} alt="p"/>
     <h3>{login}</h3>
     <div>
       <a className="btn btn-dark btn-sm my-1" href={html_url}>More</a>
